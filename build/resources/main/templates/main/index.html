@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js" ></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    메뉴 리스트 <div id="menu"></div>
+
+    <div id="basket" onclick="showList()">장바구니</div>
+    <div id="basketList">
+        <div id="cartin"></div>
+    </div>
+
+    <button type = "button" onclick="order()">주문하기</button>
+    <br>
+    <div>
+    <button type = "button" onclick="getorderlist()">주문목록</button>
+    <div id="listorder"></div>
+    <button type = "button" onclick="paylist()">결제하기</button>
+    </div>
+</body>
+</html>
