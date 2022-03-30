@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>로그인 페이지</title>
+    <script>
+        function login() {
+            let info = {
+                username: $("#username").val(),
+                password: $("#password").val()
+            }
+            $.ajax({
+                type: 'POST',
+                url: `/login`,
+                contentType: "application/json",
+                data: JSON.stringify(info),
+                success: function (response) {
+                    localStorage.setItem("token", response['token']);
+                    localStorage.setItem("username", response['username']);
+                    location.href = '/main/index';
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+<div id="login-form">
+    <div id="login-title">Torder</div>
+
+    <span>
+    <div class="login-id-label">아이디</div>
+    <input type="text" name="username" id="username" class="login-input-box">
+
+    <div class="login-id-label">비밀번호</div>
+    <input type="password" name="password" id="password" class="login-input-box">
+
+    <button id="login-id-submit" onclick="login()">로그인</button>
+  </span>
+</div>
+</body>
+</html>

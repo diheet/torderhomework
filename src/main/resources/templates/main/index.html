@@ -6,11 +6,14 @@
     <script type="text/javascript" src="/js/index.js"></script>
     <meta charset="UTF-8">
     <title>Title</title>
+
 </head>
 <body>
+    <button type = "button" onclick="logout()">로그아웃<button>
+        <br>
     메뉴 리스트 <div id="menu"></div>
-
-    <div id="basket" onclick="showList()">장바구니</div>
+    <br>
+        <button><div id="basket" onclick="showList()">장바구니</div></button>
     <div id="basketList">
         <div id="cartin"></div>
     </div>
@@ -22,5 +25,7 @@
     <div id="listorder"></div>
     <button type = "button" onclick="paylist()">결제하기</button>
     </div>
+        <button type = "button" onclick="lastlist()">결제목록</button>
+        <div id="paydonelist"></div>
 </body>
 </html>

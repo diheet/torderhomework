@@ -2,6 +2,10 @@ var menuCart = new Array;
 var test = new Array;
 
 $(document).ready(function() {
+    if(!localStorage.getItem("token")){
+        alert("로그인 후 이용해주세요!")
+        location.href="/main/login"
+    }
     console.log("테스트 입니다.");
     menuList();
 
@@ -73,6 +77,9 @@ function order () {
     $.ajax({
         url: "/main/order",
         type: "POST",
+        beforeSend: function (xhr) {
+            xhr.setRequestHeader('Authorization', 'Bearer ' + localStorage.getItem('token'));
+        },
         contentType: 'application/json',
         data: JSON.stringify(menuCart),
         success: function (data) {
@@ -110,6 +117,9 @@ function paylist() {
     $.ajax({
         url:"/main/paylist",
         type:"POST",
+        beforeSend: function (xhr) {
+            xhr.setRequestHeader('Authorization', 'Bearer ' + localStorage.getItem('token'));
+        },
         contentType: 'application/json',
         data: JSON.stringify(test),
         success : function (payment) {
@@ -119,4 +129,10 @@ function paylist() {
 
         }
     });
+}
+
+function logout() {
+    localStorage.removeItem('token');
+    localStorage.removeItem('username')
+    window.location.href = '/main/login';
 }

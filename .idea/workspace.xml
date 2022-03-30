@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Domain/FoodMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Domain/FoodMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Domain/OrderMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Domain/OrderMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Domain/Pay.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Domain/Pay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/AllmenuDto$AllmenuDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/AllmenuDto$AllmenuDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/AllmenuDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/AllmenuDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/OrderMenuDto$OrderMenuDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/OrderMenuDto$OrderMenuDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/OrderMenuDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/OrderMenuDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/PayDto$PayDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/PayDto$PayDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/PayDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/PayDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Repository/MenuRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Repository/MenuRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Repository/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Repository/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Repository/PayRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Repository/PayRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Service/MainService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Service/MainService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/TorderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/TorderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Domain/FoodMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/domain/FoodMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Domain/OrderMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/domain/OrderMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Domain/Pay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/domain/Pay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Dto/AllmenuDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/dto/AllmenuDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Dto/OrderMenuDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/dto/OrderMenuDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Dto/PayDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/dto/PayDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Repository/MenuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/repository/MenuRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Repository/PayRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/repository/PayRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/service/MainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/TorderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/TorderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main/index.html" afterDir="false" />
+    </list>
+    <list id="f573851f-cf5f-4b82-afbb-a3abef11a38e" name="Changes by zxck0" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Domain/OrderMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/domain/OrderMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Domain/Pay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/domain/Pay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/Service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/service/MainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/com/homework/torder/domain/Pay.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="2" end1="4" start2="2" end2="4" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="9" end1="12" start2="9" end2="10" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="27" end1="28" start2="25" end2="31" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="32" end1="32" start2="35" end2="36" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/com/homework/torder/controller/MainController.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="2" end1="6" start2="2" end2="8" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="7" end1="7" start2="9" end2="10" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+        <range start1="26" end1="26" start2="29" end2="36" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+        <range start1="32" end1="33" start2="42" end2="44" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+        <range start1="35" end1="36" start2="46" end2="47" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+        <range start1="45" end1="46" start2="56" end2="58" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="48" end1="50" start2="60" end2="62" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/com/homework/torder/service/MainService.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="2" end1="11" start2="2" end2="12" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="47" end1="48" start2="48" end2="49" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+        <range start1="49" end1="50" start2="50" end2="51" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+        <range start1="71" end1="72" start2="72" end2="73" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="73" end1="74" start2="74" end2="75" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="77" end1="79" start2="78" end2="83" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/resources/templates/main/index.html">
+      <ranges>
+        <range start1="8" end1="8" start2="8" end2="9" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+        <range start1="10" end1="10" start2="11" end2="13" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+        <range start1="11" end1="13" start2="14" end2="16" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="24" end1="24" start2="27" end2="29" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/resources/static/js/index.js">
+      <ranges>
+        <range start1="4" end1="4" start2="4" end2="8" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+        <range start1="75" end1="75" start2="79" end2="82" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+        <range start1="112" end1="112" start2="119" end2="122" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="123" end1="123" start2="133" end2="142" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/com/homework/torder/repository/OrderRepository.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="2" end1="3" start2="2" end2="4" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="4" end1="4" start2="5" end2="7" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="6" end1="6" start2="9" end2="12" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/com/homework/torder/domain/OrderMenu.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="2" end1="3" start2="2" end2="4" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="8" end1="11" start2="9" end2="10" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="26" end1="27" start2="25" end2="31" changelist="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" />
+        <range start1="31" end1="31" start2="35" end2="36" changelist="f573851f-cf5f-4b82-afbb-a3abef11a38e" />
+      </ranges>
+    </file>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="270SSyqkeGjlKl2PIlOue3h81Mq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\springproject\torder\src\main\resources\static\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TorderApplication">
+    <configuration name="TorderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.homework.torder.TorderApplication" />
+      <module name="torder.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.homework.torder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TorderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="torder.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.homework.torder.TorderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TorderApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c08792cf-d2fb-43ef-bbec-06496a3c4aeb" name="Changes" comment="" />
+      <created>1648455516953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648455516953</updated>
+      <workItem from="1648455522367" duration="4767000" />
+      <workItem from="1648574146027" duration="3003000" />
+      <workItem from="1648577184531" duration="15673000" />
+      <workItem from="1648632317428" duration="14316000" />
+      <workItem from="1648650408861" duration="712000" />
+      <workItem from="1648651368843" duration="15602000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
