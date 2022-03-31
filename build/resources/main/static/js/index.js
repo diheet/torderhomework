@@ -1,6 +1,7 @@
 var menuCart = new Array;
 var test = new Array;
 
+
 $(document).ready(function() {
     if(!localStorage.getItem("token")){
         alert("로그인 후 이용해주세요!")
@@ -130,6 +131,10 @@ function paylist() {
         }
     });
 }
+
+// function lastlist() {
+//
+// }
 
 function logout() {
     localStorage.removeItem('token');

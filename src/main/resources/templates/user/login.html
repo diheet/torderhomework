@@ -6,6 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/boot.css">
+    <link rel="stylesheet" href="./bootstrapt/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./bootstrapt/css/bootstrap.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
     <title>로그인 페이지</title>
     <script>
         function login() {
@@ -29,7 +40,7 @@
 </head>
 <body>
 <div id="login-form">
-    <div id="login-title">Torder</div>
+    <div id="login-title"><span class="badge bg-danger">t-order</span></div>
 
     <span>
     <div class="login-id-label">아이디</div>
@@ -37,8 +48,8 @@
 
     <div class="login-id-label">비밀번호</div>
     <input type="password" name="password" id="password" class="login-input-box">
-
-    <button id="login-id-submit" onclick="login()">로그인</button>
+    <br>
+    <button type="button" id="login-id-submit" class="btn btn-danger btn-lg" onclick="login()">로그인</button>
   </span>
 </div>
 </body>
