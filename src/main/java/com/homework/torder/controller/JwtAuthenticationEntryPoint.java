@@ -18,3 +18,5 @@ public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint {
         response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Unauthorized");
     }
 }
+
+//서버가 시작될 때 쓰는 jwt 설정중 error 부분

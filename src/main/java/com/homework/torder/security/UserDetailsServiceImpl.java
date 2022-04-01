@@ -22,3 +22,4 @@ public class UserDetailsServiceImpl implements UserDetailsService{
         return new UserDetailsImpl(user);
     }
 }
+//아이디 없을때 예외처리

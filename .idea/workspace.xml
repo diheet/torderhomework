@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="torder:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -12,28 +17,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/AllmenuDto$AllmenuDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/AllmenuDto$AllmenuDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/AllmenuDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/AllmenuDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Controller/UserApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Controller/UserApiController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/OrderMenuDto$OrderMenuDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/OrderMenuDto$OrderMenuDtoBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/OrderMenuDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/OrderMenuDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/PayDto$PayDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/PayDto$PayDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/PayDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Dto/PayDto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Service/MainService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/homework/torder/Service/MainService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/dto/AllmenuDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/dto/AllmenuDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/dto/OrderMenuDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/dto/OrderMenuDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/dto/PayDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/dto/PayDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/service/MainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/controller/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/controller/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/controller/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/controller/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/controller/UserApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/controller/UserApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/torder/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/torder/security/UserDetailsServiceImpl.java" afterDir="false" />
     </list>
     <list id="f573851f-cf5f-4b82-afbb-a3abef11a38e" name="Changes by zxck0" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,14 +98,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\springproject\torder\src\main\resources\static\js" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TorderApplication">
+  <component name="RunManager" selected="JAR Application.ordert">
     <configuration name="TorderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.homework.torder.TorderApplication" />
       <module name="torder.main" />
@@ -121,6 +123,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ordert" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/torder_jar/torder.jar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="torder:jar" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="TorderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="torder.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.homework.torder.TorderApplication" />
@@ -128,8 +140,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TorderApplication" />
+      <item itemvalue="JAR Application.ordert" />
+      <item itemvalue="Spring Boot.TorderApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.TorderApplication" />
         <item itemvalue="Application.TorderApplication" />
       </list>
     </recent_temporary>
@@ -153,6 +171,9 @@
       <workItem from="1648799137787" duration="287000" />
       <workItem from="1648799445819" duration="312000" />
       <workItem from="1648799840831" duration="4255000" />
+      <workItem from="1648805120338" duration="6066000" />
+      <workItem from="1648812441068" duration="1400000" />
+      <workItem from="1648814250207" duration="3544000" />
     </task>
     <servers />
   </component>
@@ -170,5 +191,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

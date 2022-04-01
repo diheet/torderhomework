@@ -36,3 +36,9 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+application {
+    // Define the main class for the application.
+    // insert the entire name of the class
+    mainClassName = 'packageName.MainClass'
+}

@@ -64,3 +64,5 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         chain.doFilter(req, res);
     }
 }
+
+//유효성 검사
