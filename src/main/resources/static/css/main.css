@@ -6,3 +6,17 @@
     cursor: pointer;
 }
 
+
+#totalPrice {
+    float : right;
+    margin-top: 10px;
+}
+
+.payPrice {
+    float : right;
+}
+
+#totalTitle {
+    float: left;
+    margin-top: 10px;
+}

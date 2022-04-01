@@ -26,7 +26,7 @@ public class MainController {
         mv.setViewName("/main/index");
         return mv;
     }
-
+//로그인
     @RequestMapping("/login")
     public ModelAndView login () {
         ModelAndView mv = new ModelAndView();
@@ -34,25 +34,29 @@ public class MainController {
         return mv;
     }
 
+//메뉴가져오기
     @GetMapping("/menu")
     public @ResponseBody List<AllmenuDto> menu () {
         return mainService.getAllMenu();
     }
 
+// 장바구니 -> 주문하기
     @PostMapping("/order")
     public @ResponseBody String order(@RequestBody List<OrderMenuDto> menuCart, @AuthenticationPrincipal UserDetailsImpl userDetails) {
         User user = userDetails.getUser();
         String msg = "성공";
-//        System.out.println("데이타 : "+menuCart.get(0).getMENU_NAME());
+//        System.out.println("데이터 : "+menuCart.get(0).getMENU_NAME());
         mainService.setOrders(menuCart, user);
         return msg;
     }
 
+//주문목록
     @GetMapping("/list")
     public @ResponseBody List<OrderMenuDto> list () {
         return mainService.getAlllist();
     }
 
+//주문목록 -> 결제하기
     @PostMapping("/paylist")
     public @ResponseBody String paylist(@RequestBody List<PayDto> test, @AuthenticationPrincipal UserDetailsImpl userDetails) {
         User user = userDetails.getUser();
@@ -61,5 +65,11 @@ public class MainController {
         mainService.setPays(test, user);
         mainService.deleteOrder(user);
         return msg;
+    }
+
+//결제목록
+    @GetMapping("/lastlist")
+    public @ResponseBody List<PayDto> lastlist() {
+        return mainService.getPaylist();
     }
 }

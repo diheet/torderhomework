@@ -3,75 +3,97 @@
 <head>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/boot.css">
-    <link rel="stylesheet" href="./bootstrapt/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./bootstrapt/css/bootstrap.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js" ></script>
+    <link rel="stylesheet" href="./bootstrapt/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./bootstrapt/css/bootstrap.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
     <script type="text/javascript" src="/js/index.js"></script>
     <meta charset="UTF-8">
     <title>기능구현</title>
-
-
-
 </head>
 
 
 <body>
-    <button type = "button" class="btn btn-danger" onclick="logout()">로그아웃</button>
+<div>
+<button type="button" class="btn btn-danger" onclick="logout()">로그아웃</button>
 
 <!--메뉴리스트-->
-    <div class="card border-danger mb-3" style="max-width: 20rem;">
-        <div class="card-header">메뉴리스트</div>
-        <div class="card-body" id="menu">
-        </div>
+<div class="card border-danger mb-3" style="max-width: 20rem;">
+    <div class="card-header">메뉴리스트</div>
+    <div class="card-body" id="menu">
     </div>
+</div>
 
 <!--장바구니&주문하기-->
-    <div class="card border-danger mb-3" style="max-width: 20rem;">
-        <div class="card-header" id="basket"  onclick="showList()">장바구니 리스트</div>
-        <div class="card-body" id="basketList">
-            <div id="cartin"></div>
-            <button type = "button" class="btn btn-danger" onclick="order()">주문하기</button>
-        </div>
+<div class="card border-danger mb-3" style="max-width: 20rem;">
+    <div class="card-header" id="basket" onclick="showList()">장바구니 리스트</div>
+    <div class="card-body" id="basketList">
+        <div id="cartin"></div>
+        <button type="button" class="btn btn-danger" onclick="order()">주문하기</button>
     </div>
+</div>
 
 <!--  주문목록&결제  -->
-    <button type = "button" class="btn btn-danger" id="testBtn" onclick="getorderlist()">주문목록보기</button>
-    <!-- 회원가입 확인 Modal-->
-    <div class="modal fade" id="testModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">주문목록</h5>
-                        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"></span>
-                    </button>
-                </div>
-                <div class="modal-body" id="listorder">
-                    <p>Modal body text goes here.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" onclick="paylist()">결제하기</button>
-                </div>
-                </div>
+<button type="button" class="btn btn-danger" id="testBtn" onclick="getorderlist()">주문목록보기</button>
+<!--Modal-->
+<div class="modal fade" id="testModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">주문목록</h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body" id="listorder">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" onclick="paylist()">결제하기</button>
             </div>
         </div>
     </div>
-
-    <script>
-        $('#testBtn').click(function(e){
-            e.preventDefault();
-            $('#testModal').modal("show");
-        });
-    </script>
+</div>
 
 
+<script>
+    $('#testBtn').click(function (e) {
+        e.preventDefault();
+        $('#testModal').modal("show");
+    });
+</script>
 
-    <div>
 
+<button type="button" class="btn btn-danger" id="testBtn2" onclick="lastlist()">결제목록보기</button>
+<div class="modal fade" id="testModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">결제목록</h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body" id="paylist">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script>
+    $('#testBtn2').click(function (e) {
+        e.preventDefault();
+        $('#testModal2').modal("show");
+    });
+</script>
 
 
 </body>

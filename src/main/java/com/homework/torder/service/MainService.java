@@ -10,6 +10,7 @@ import com.homework.torder.dto.PayDto;
 import com.homework.torder.repository.MenuRepository;
 import com.homework.torder.repository.OrderRepository;
 import com.homework.torder.repository.PayRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
+@RequiredArgsConstructor
 public class MainService {
 
     @Autowired
@@ -35,12 +37,7 @@ public class MainService {
         List<AllmenuDto> allmenuDtos = new ArrayList<>();
 
         for (FoodMenu foodMenu : foodMenus){
-            AllmenuDto allmenuDto = AllmenuDto.builder()
-                    .menu_code(foodMenu.getMenu_code())
-                    .menu_name(foodMenu.getMenu_name())
-                    .price(foodMenu.getPrice())
-                    .build();
-
+            AllmenuDto allmenuDto = new AllmenuDto(foodMenu);
             allmenuDtos.add(allmenuDto);
         }
         return allmenuDtos;
@@ -58,13 +55,7 @@ public class MainService {
         List<OrderMenuDto> orderMenuDtos = new ArrayList<>();
 
         for (OrderMenu orderMenu : orderMenus){
-            OrderMenuDto orderMenuDto = OrderMenuDto.builder()
-                    .menu_code(orderMenu.getMenu_code())
-                    .menu_name(orderMenu.getMenu_name())
-                    .price(orderMenu.getPrice())
-                    .count(orderMenu.getCount())
-                    .build();
-
+            OrderMenuDto orderMenuDto = new OrderMenuDto(orderMenu);
             orderMenuDtos.add(orderMenuDto);
         }
         return orderMenuDtos;
@@ -77,9 +68,19 @@ public class MainService {
         }
     }
 
+    public List<PayDto> getPaylist() {
+        List<Pay> pays = payRepository.findAll();
+        List<PayDto> payDtos = new ArrayList<>();
+
+        for (Pay pay : pays){
+            PayDto payDto = new PayDto(pay);
+            payDtos.add(payDto);
+        }
+        return payDtos;
+    }
+
 
     public void deleteOrder(User user) {
-
         orderRepository.deleteAllByUser(user);
     }
 }
