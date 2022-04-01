@@ -12,7 +12,8 @@ DB
 | 결제목록(pay) |
 | 사용자목록(user) |
 
-![폴더 구조](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac2032da-95c5-404a-b792-e4438acd7e53/스크린샷_2022-04-01_오전_7.43.07.png)
+<img width="354" alt="스크린샷 2022-04-01 오전 7 43 07" src="https://user-images.githubusercontent.com/90808075/161277858-646eeee2-c293-475c-9ff0-ad6b19fd0b99.png">
+
 
 폴더 구조
 
@@ -323,58 +324,66 @@ application.properties →*jwt.secret*=javainuse 추가
     
     **SpringSecurity + JWT를 사용해 로그인 구현**
     
-    ![로그인 화면](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c39031ac-b942-48b8-b7c5-f35d91ede3b2/스크린샷_2022-04-01_오전_6.47.41.png)
+    <img width="212" alt="스크린샷 2022-04-01 오전 6 47 41" src="https://user-images.githubusercontent.com/90808075/161278659-5ff2c4a8-f448-45ef-9b1a-7f80b261c8d9.png">
     
     로그인 화면
     
-    ![로그인 완료](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e8051739-71ab-41fe-afe5-6e631fa78720/스크린샷_2022-04-01_오전_6.49.21.png)
+    <img width="570" alt="스크린샷 2022-04-01 오전 6 49 21" src="https://user-images.githubusercontent.com/90808075/161278684-7676a224-c79a-4c2e-84d8-9f47d92b41a7.png">
     
     로그인 완료
     
-    ![로그아웃 버튼을 누르면 로그아웃 되면서 로그인 화면으로 돌아가게 됨.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6f35165-e22f-49f6-bc04-eb15d07b2ae7/스크린샷_2022-04-01_오전_6.53.55.png)
+    <img width="113" alt="스크린샷 2022-04-01 오전 6 53 55" src="https://user-images.githubusercontent.com/90808075/161278702-4a509d5b-ef81-4162-8ef7-8089731c00b3.png">
     
     로그아웃 버튼을 누르면 로그아웃 되면서 로그인 화면으로 돌아가게 됨.
     
-    ![로그아웃 완료 창](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2e084f4-005e-4b99-82f8-afad4d116c8b/스크린샷_2022-04-01_오전_6.55.04.png)
+    <img width="1021" alt="스크린샷 2022-04-01 오전 6 55 04" src="https://user-images.githubusercontent.com/90808075/161278714-9a73e8fc-bc08-4060-a140-a9d356f764c6.png">
     
     로그아웃 완료 창
     
-    ![로그인 하지 않고 index접근 했을때](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/db58d744-4d80-4656-b903-e9cccd055e13/스크린샷_2022-04-01_오전_6.57.30.png)
+    <img width="951" alt="스크린샷 2022-04-01 오전 6 57 30" src="https://user-images.githubusercontent.com/90808075/161278726-3105a2e8-0d56-4814-81ff-f62db80c1405.png">
     
     로그인 하지 않고 index접근 했을때
     
 - **메뉴 10개 이상 조회 (메뉴 DB 필요)**
     
-    ![메뉴 조회와 메뉴 DB](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ababd131-c9a7-49cf-b131-08cbc62b9b05/스크린샷_2022-04-01_오전_7.04.14.png)
+    <img width="1014" alt="스크린샷 2022-04-01 오전 7 04 14" src="https://user-images.githubusercontent.com/90808075/161279360-2160c210-8601-4361-ab87-de9f9e298186.png">
     
     메뉴 조회와 메뉴 DB
     
 - **메뉴 선택 (장바구니에 메뉴 삽입)**
     
-    ![메뉴 클릭시 장바구니에 메뉴 삽입](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5dd4efe-b431-49ee-8957-d8b92b311243/스크린샷_2022-04-01_오전_7.07.05.png)
+    <img width="386" alt="스크린샷 2022-04-01 오전 7 07 05" src="https://user-images.githubusercontent.com/90808075/161279397-7fddf1db-e9a5-471b-beb8-2cc1f08005c0.png">
     
     메뉴 클릭시 장바구니에 메뉴 삽입
     
 - **메뉴 취소 (장바구니에 메뉴 삭제)**
     
-    ![삭제버튼 클릭시 항목 삭제](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a137e6b-3c4a-4771-b372-3e86bee0e93b/스크린샷_2022-04-01_오전_7.09.50.png)
+    <img width="400" alt="스크린샷 2022-04-01 오전 7 09 50" src="https://user-images.githubusercontent.com/90808075/161279659-d1788ec2-76f5-4ec8-92d1-fc2cf23f6f94.png">
     
     삭제버튼 클릭시 항목 삭제
     
 - **장바구니 (temporary 저장소로 DB 저장 필요 X)**
     
-    ![전역변수 menuCart사용하여 db사용X](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ec5413cc-743a-4dc0-8c7c-8601edec4154/스크린샷_2022-04-01_오전_7.12.22.png)
+    <img width="784" alt="스크린샷 2022-04-01 오전 7 12 22 (1)" src="https://user-images.githubusercontent.com/90808075/161280621-9c8549bb-2a3e-4290-aa62-c4a2b6e988cb.png">
     
     전역변수 menuCart사용하여 db사용X
     
 - **주문 (주문 후 장바구니 삭제 / 주문 내역 DB 필요)**
     
-    ![주문하기 누르면 장바구니 삭제 및 order_menue테이블에 insert](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1d7d361-8faa-41e5-bc62-2cd191fda58d/스크린샷_2022-04-01_오전_7.15.08.png)
+    <img width="1158" alt="스크린샷 2022-04-01 오전 7 15 08" src="https://user-images.githubusercontent.com/90808075/161279919-c988eec0-da1e-4264-91ed-8abbff08fa50.png">
     
     주문하기 누르면 장바구니 삭제 및 order_menue테이블에 insert
     
-    ![주문 목록](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/88c90111-02c8-4d3a-8187-15fbcdb83a3a/스크린샷_2022-04-01_오전_7.16.55.png)
+    <img width="961" alt="스크린샷 2022-04-01 오전 7 16 55" src="https://user-images.githubusercontent.com/90808075/161279942-39f0eaf5-1eb3-4879-8679-2d70b82520bb.png">
     
     주문 목록
     
 - **결제 (결제 후 주문 내역 삭제 / 결제 내역 DB 필요)**
+
+    <img width="1131" alt="스크린샷 2022-04-01 오전 7 19 27" src="https://user-images.githubusercontent.com/90808075/161279979-01cfbaf3-2b4f-45fa-b3e7-f2c0bcf503bb.png">
+    
+    주문목록에 있는 결제버튼을 누르면 주문내역 삭제와 pay테이블에 insert
+    
+    <img width="1293" alt="스크린샷 2022-04-01 오전 7 22 12" src="https://user-images.githubusercontent.com/90808075/161280009-6059de11-92e4-41ad-83fa-fe6dfbb8942d.png">
+    
+    결제목록 확인
